@@ -67,7 +67,7 @@
 
 <h3 id="the-toggle-menu">The toggle menu <a class="manual__heading-link" href="#the-toggle-menu" aria-label="Link to this section">#</a></h3>
 
-<p><code>Super + Ctrl + O</code> opens <em>Trigger &gt; Toggle</em> directly, or you can walk there from the Omarchy menu (<code>Super + Space</code>). Everything in that list is a switch you can flip without thinking about where the state lives. Switches for how the desktop looks sit next to it, under <em>Trigger &gt; Appearance</em>.</p>
+<p><code>Super + Ctrl + O</code> opens <em>Trigger &gt; Toggle</em> directly, or you can walk there from the Omarchy menu (<code>Super + Space</code>). Everything in that list is a switch you can flip without thinking about where the state lives. Switches for how the desktop looks sit next to it, under <em>Appearance</em>.</p>
 
 <p>From the terminal, the same switches are <code>omarchy toggle &lt;thing&gt;</code>. Run <code>omarchy toggle</code> on its own to see the whole group.</p>
 
@@ -82,7 +82,7 @@
   <tbody>
     <tr>
       <td>Night light</td>
-      <td><code>Super + Ctrl + N</code></td>
+      <td>—</td>
       <td><code>omarchy toggle nightlight</code></td>
     </tr>
     <tr>
@@ -140,7 +140,7 @@
 
 <p>The touchpad, touchscreen, and hybrid GPU switches live under <em>Trigger &gt; Hardware</em> (<code>Super + Ctrl + H</code>) rather than under Toggle, since they only show up when you actually have that hardware. The touchpad and touchscreen ones survive a Hyprland reload — the disabled device’s name is saved to a small state file that Hyprland reads on startup to disable it again.</p>
 
-<p><em>Trigger &gt; Appearance</em> holds the menu bar and animations, plus a few things that aren’t <code>omarchy toggle</code> commands but behave the same: battery percentage in the bar, the default workspace layout, window gaps (<code>Super + Shift + Backspace</code>), and the 1-window square aspect (<code>Super + Ctrl + Backspace</code>).</p>
+<p><em>Appearance</em> holds the menu bar and animations, plus a few things that aren’t <code>omarchy toggle</code> commands but behave the same: battery percentage in the bar, the default workspace layout, and under <em>Windows</em>, window gaps (<code>Super + Shift + Backspace</code>) and the 1-window square aspect (<code>Super + Ctrl + Backspace</code>).</p>
 
 <p>Most of these are just a flag file under <code>~/.local/state/omarchy/toggles/</code>. If you want to branch on one in a script, <code>omarchy-toggle-enabled</code> gives you an exit code instead of making you go looking:</p>
 
@@ -157,7 +157,7 @@
 
 <h3 id="night-light">Night light <a class="manual__heading-link" href="#night-light" aria-label="Link to this section">#</a></h3>
 
-<p><code>Super + Ctrl + N</code> warms the screen to 4000K, and hitting it again puts it back to 6500K. It’s driven by hyprsunset, which the toggle starts for you if it isn’t already running.</p>
+<p>Night light warms the screen to 4000K, and toggling it again puts it back to 6500K. Flip it from the toggle menu (<code>Super + Ctrl + O</code>) or with <code>omarchy toggle nightlight</code>. It’s driven by hyprsunset, which the toggle starts for you if it isn’t already running.</p>
 
 <p>By default hyprsunset does nothing to your screen at all. <code>~/.config/hypr/hyprsunset.conf</code> ships with an identity profile precisely so the display stays untouched until you ask for warmth. If you’d rather have it switch by the clock, replace that with a time profile:</p>
 
@@ -206,7 +206,7 @@
 
 <p><code>omarchy toggle screensaver</code> is what turns the idle one off, if you’d rather go straight from working to locked. It needs a terminal it knows how to configure — Alacritty, Foot, Ghostty, or Kitty — and will tell you so if your default terminal is something else.</p>
 
-<p>The logo it draws is yours to change, under <em>Style &gt; Screensaver</em>. Upload a png or svg and Omarchy converts it to ASCII. See <a href="../branding/">branding</a>.</p>
+<p>The logo it draws is yours to change, under <em>Appearance &gt; Branding &gt; Screensaver</em>. Upload a png or svg and Omarchy converts it to ASCII. See <a href="../branding/">branding</a>.</p>
 
 <h3 id="the-lock-screen">The lock screen <a class="manual__heading-link" href="#the-lock-screen" aria-label="Link to this section">#</a></h3>
 
