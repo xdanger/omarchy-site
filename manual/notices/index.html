@@ -69,13 +69,13 @@
 
 <p>Notifications from the same app or site stack into a deck, so a chatty Slack channel doesn’t push your build failure off the screen. Hover a deck to fan it out; nothing new slides in under your pointer while you’re reading. Click a card to jump to where it came from, middle-click or hit the ✕ to dismiss it.</p>
 
-<p>Cards offer what they carry: <em>Copy code</em> for verification codes (kept out of <a href="../unified-clipboard-history/">clipboard history</a> and cleared after a minute), <em>Open link</em>, <em>Join</em> for meetings, <em>Copy number</em> for phone numbers, plus any buttons the app provides.</p>
+<p>Cards offer what they carry: <em>Copy code</em> for verification codes (kept out of <a href="../unified-clipboard-history/">clipboard history</a> and cleared after a minute), plus any buttons the app provides. Links in a notification’s text open when clicked.</p>
 
-<p>Right-click a card to snooze its source or turn on Do Not Disturb. Snoozed notifications are held back, not thrown away.</p>
+<p>Hover a card and click the zzz next to its close mark, or right-click the card, to snooze its source for 15 minutes, an hour, or until tomorrow morning. Snoozed notifications are held back, not thrown away.</p>
 
-<p>Right-click the bell in the bar (hover the middle of the bar to reveal it) to open the notification panel: what’s been held back, recent notifications, and the past day’s history. From there you can snooze everything, wake a snoozed source, or choose whether verification codes get through while you’re quiet (they do by default). The cog opens preferences for which display to use, stepping aside for fullscreen games, stacking by source, and a countdown bar. When you share your screen, the bell offers a timed snooze; nothing is muted until you pick one.</p>
+<p>Right-click the bell in the bar (hover the middle of the bar to reveal it) to open the notification panel: what’s been held back, recent notifications, and the past day’s history. From there you can snooze everything, wake a snoozed source, or choose whether verification codes get through while you’re quiet (they do by default). The cog opens preferences for which display to use, stepping aside for fullscreen games, and the screen-sharing snooze. When you share your screen, the bell offers a timed snooze; nothing is muted until you pick one.</p>
 
-<p>More preferences live in the <code>notifications</code> section of <code>~/.config/omarchy/shell.json</code>, for example <code>"notifications": { "fontScale": 120, "historyHours": 168 }</code>. Set <code>historyHours</code> to <code>0</code> to keep no history on disk.</p>
+<p>History is kept for a day. To change that, set <code>historyHours</code> in the <code>notifications</code> section of <code>~/.config/omarchy/shell.json</code> to <code>1</code>, <code>168</code> for a week, or <code>0</code> to keep no history on disk, for example <code>"notifications": { "historyHours": 168 }</code>.</p>
 
 <h2 id="hotkey-notices">Hotkey notices <a class="manual__heading-link" href="#hotkey-notices" aria-label="Link to this section">#</a></h2>
 
