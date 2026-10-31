@@ -1410,7 +1410,7 @@
       "country": "USA",
       "online": null,
       "geo": { "lat": 33.1551055, "lon": -96.830513 },
-      "hosts": ["Matt Gleason"],
+      "hosts": ["Matt Gleason", "Matt Guenther"],
       "cover": null
     },
     {
