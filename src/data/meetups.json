@@ -371,10 +371,10 @@
       "end": "2026-09-13T19:00:00.000Z",
       "timezone": null,
       "address": null,
-      "city": "Ìbàdàn",
-      "country": "NG",
+      "city": null,
+      "country": null,
       "online": null,
-      "geo": { "lat": 7.3783681, "lon": 3.8972331, "approximate": true },
+      "geo": null,
       "hosts": ["Nombur Samuel"],
       "cover": null
     },
