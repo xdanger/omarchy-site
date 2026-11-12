@@ -1,7 +1,7 @@
 {
   "source": "luma-feed",
   "calendar": "https://luma.com/omarchy",
-  "refreshed": "2026-11-11",
+  "refreshed": "2026-11-12",
   "events": [
     {
       "id": "evt-YDyCEwwpiMzSFDB",
@@ -371,10 +371,10 @@
       "end": "2026-09-13T19:00:00.000Z",
       "timezone": null,
       "address": null,
-      "city": null,
-      "country": null,
+      "city": "Ìbàdàn",
+      "country": "NG",
       "online": null,
-      "geo": null,
+      "geo": { "lat": 7.3783681, "lon": 3.8972331, "approximate": true },
       "hosts": ["Nombur Samuel"],
       "cover": null
     },
