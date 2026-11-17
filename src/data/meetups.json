@@ -941,10 +941,10 @@
       "end": "2026-10-10T01:00:00.000Z",
       "timezone": null,
       "address": "Bennu Coffee East, 2001 E MLK Blvd, Austin, TX 78702",
-      "city": "Austin",
+      "city": null,
       "country": "TX 78702",
       "online": null,
-      "geo": { "lat": 30.2649261, "lon": -97.7474086, "approximate": true },
+      "geo": null,
       "hosts": ["Kingmk3r"],
       "cover": null
     },
