@@ -1,7 +1,7 @@
 {
   "source": "luma-feed",
   "calendar": "https://luma.com/omarchy",
-  "refreshed": "2026-11-16",
+  "refreshed": "2026-11-17",
   "events": [
     {
       "id": "evt-YDyCEwwpiMzSFDB",
@@ -1591,6 +1591,21 @@
       "online": null,
       "geo": { "lat": 36.3668749, "lon": -94.1998458 },
       "hosts": ["Matt Guenther"],
+      "cover": null
+    },
+    {
+      "id": "evt-wCxQUZRXp6kPJyK",
+      "title": "Omarchy Aotearoa ep2",
+      "url": "https://luma.com/7bj5q2rs",
+      "start": "2026-12-11T22:00:00.000Z",
+      "end": "2026-12-12T00:00:00.000Z",
+      "timezone": null,
+      "address": "Patch Cafe - Lorne St, 36 Lorne Street, Auckland CBD, Auckland 1010, New Zealand",
+      "city": null,
+      "country": "New Zealand",
+      "online": null,
+      "geo": { "lat": -36.8507499, "lon": 174.7655605 },
+      "hosts": ["Sinan NAR", "Scott A"],
       "cover": null
     },
     {
