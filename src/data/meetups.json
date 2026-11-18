@@ -1549,6 +1549,21 @@
       "cover": null
     },
     {
+      "id": "evt-NA2pBkUyXaHsaBz",
+      "title": "Omarchy Lisbon Meetup 001",
+      "url": "https://luma.com/xt0wf88j",
+      "start": "2026-11-30T18:30:00.000Z",
+      "end": "2026-11-30T21:00:00.000Z",
+      "timezone": null,
+      "address": "Cloudflare, Av. da Índia 8 10, 1300-299 Lisboa, Portugal",
+      "city": null,
+      "country": "Portugal",
+      "online": null,
+      "geo": { "lat": 38.701561399999996, "lon": -9.176805 },
+      "hosts": ["Afonso Oliveira"],
+      "cover": null
+    },
+    {
       "id": "evt-uPsBGIfECd9kXxV",
       "title": "Omarchy SF",
       "url": "https://luma.com/ejid15jm",
