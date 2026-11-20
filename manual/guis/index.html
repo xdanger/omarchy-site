@@ -65,7 +65,7 @@
       <h1>GUIs</h1>
 <h2 id="files">Files <a class="manual__heading-link" href="#files" aria-label="Link to this section">#</a></h2>
 
-<p>Files (Nautilus) is the graphical file manager. <code>Super + Shift + F</code> opens it, and <code>Super + Shift + Alt + F</code> opens it in the directory your terminal is sitting in, which saves a lot of clicking. <code>Ctrl + L</code> lets you type a path, and hitting <code>Space</code> on any file gives you a quick preview without opening anything.</p>
+<p>Files (Folio) is the graphical file manager. <code>Super + Shift + F</code> opens it, and <code>Super + Shift + Alt + F</code> opens it in the directory your terminal is sitting in, which saves a lot of clicking. <code>Ctrl + L</code> lets you type a path, and hitting <code>Space</code> on any file previews it at full size without opening it.</p>
 
 <p>Plug in a USB stick or an SD card and it’s mounted automatically, so it just shows up in the sidebar. For anything more involved — formatting a drive, checking SMART health, creating partitions — launch <em>Disks</em> from the app launcher (<code>Super + Space</code>).</p>
 
@@ -118,7 +118,7 @@
 
 <p>The same thing works from the terminal with <code>omarchy share clipboard</code>, <code>omarchy share file [path]</code>, and <code>omarchy share folder [path]</code>. Leave the path off and you get the picker.</p>
 
-<p>You can also send straight from the file manager: right-click any selection in Nautilus and pick <em>Send via LocalSend</em>.</p>
+<p>You can also send straight from the file manager: right-click any selection in Files and share it with LocalSend.</p>
 
 <p>Omarchy’s firewall is closed by default except for LocalSend’s port, so this works out of the box on a fresh install. See <a href="../security/">security</a>.</p>
 
@@ -142,9 +142,9 @@
 
 <h2 id="game-vibes">Game Vibes <a class="manual__heading-link" href="#game-vibes" aria-label="Link to this section">#</a></h2>
 
-<p>Game Vibes, in the application launcher (<code>Super + Space</code>), is where Omarchy’s little games live: Checkmate, a 3D chess game against a friend or the built-in opponent; Cards, Klondike solitaire; and Neon Swarm, an arcade shooter. Each is a single web page that follows your theme. Pick one with the arrows and <code>Enter</code>, and come back to the list with <code>Esc</code> from a game’s title screen or <code>Q</code> while it’s paused.</p>
+<p>Game Vibes, in the application launcher (<code>Super + Space</code>), is where Omarchy’s little games live: Checkmate, a 3D chess game against a friend or the built-in opponent; Cards, Klondike solitaire; and Neon Swarm, an arcade shooter. Each is a single web page that follows your theme. Pick one with the arrows and <code>Enter</code>, and come back to the list with <code>Esc</code> from a game’s title screen or <code>Q</code> while it’s paused. It opens full screen: <code>Super + F</code> makes it a window, and <code>Super + W</code> closes it.</p>
 
-<p>The games you make with an agent show up here too: choose <em>Make something cool → Game</em> in the agents panel and describe one, or name a game already in Game Vibes to keep working on it. The agent copies it into <code>~/Games/vibes</code>, where it’s yours to change, and opens it when it’s done. You can make that copy yourself with <code>omarchy games vibes copy &lt;game&gt;</code>. Games load three.js from the web, so they need a connection to start.</p>
+<p>The games you make with an agent show up here too: choose <em>Make something cool → Game</em> in the agents panel and describe one, or name a game already in Game Vibes to keep working on it. The agent copies it into <code>~/Games/vibes</code>, where it’s yours to change, and opens it when it’s done. You can make that copy yourself with <code>omarchy games vibes copy &lt;game&gt;</code>. A game someone else shares installs like a theme: choose <em>Install &gt; Gaming &gt; Game Vibes</em> and paste its git address, or run <code>omarchy games vibes install &lt;git-repo-url&gt;</code>. <em>Remove &gt; Gaming</em> takes one out again, and <em>Update &gt; Game Vibes Games</em> fetches new versions. Games load three.js from the web, so they need a connection to start.</p>
 
 <h2 id="omacalc">Omacalc <a class="manual__heading-link" href="#omacalc" aria-label="Link to this section">#</a></h2>
 
